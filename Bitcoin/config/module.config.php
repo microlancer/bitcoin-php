@@ -11,7 +11,7 @@ return array(
         ),
         'factories' => array(
             'Bitcoin\Client' => 'Bitcoin\Factory\ClientFactory',
-        )
+        ),
     ),
     'view_manager' => array(
         // Enable this in your application configuration in order to get full
