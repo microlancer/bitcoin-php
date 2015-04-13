@@ -1,42 +1,41 @@
-bitcoin-php
-===========
 
-A [Bitcoin][Bitcoin] library for [PHP](http://www.php.net/).
+ZF2-compatible wrapper for mikegogulski's bitcoin-php library
+=============================================================
 
-Documentation
--------------
+See Original Library
+--------------------
 
-Documentation can be found at [code.gogulski.com](http://code.gogulski.com/).
+https://github.com/mikegogulski/bitcoin-php
 
-Requirements
-------------
+ZF2 Module Usage
+----------------
 
-### PHP requirements:
-* PHP5
-* cURL support  
-* SSL support (if you're using HTTPS to talk to bitcoind)
+An example has been provided here: https://github.com/thorie7912/sample-zf2-bitcoin-php-app
 
-Donate
-------
+Wrapper Author
+--------------
+* [Tim Horie](https://github.com/thorie7912)
 
-* Bitcoin payments: 1E3d6EWLgwisXY2CWXDcdQQP2ivRN7e9r9
-* Gifts via other methods: <http://www.nostate.com/support-nostatecom/>
-
-Authors
--------
+Original Library Authors
+------------------------
 
 * [Mike Gogulski](http://github.com/mikegogulski) -
   <http://www.nostate.com/> <http://www.gogulski.com/>
 
-Credits
--------
+Original Credits
+----------------
 
 bitcoin-php incorporates code from:
 
 * [XML-RPC for PHP][XML-RPC-PHP] by Edd Dumbill (for JSON-RPC support)
 
-License
--------
+Wrapper License
+---------------
+
+Same as original (library).
+
+Original License
+----------------
 
 bitcoin-php is free and unencumbered public domain software. For more
 information, see <http://unlicense.org/> or the accompanying UNLICENSE file.
